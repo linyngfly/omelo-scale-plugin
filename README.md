@@ -1,20 +1,20 @@
-pomelo-scale-plugin
+omelo-scale-plugin
 ====================
 
-pomelo-scale-plugin is a plugin for pomelo, it can be used in pomelo(>=0.6).
+omelo-scale-plugin is a plugin for omelo, it can be used in omelo(>=0.6).
 
-pomelo-scale-plugin provides auto scale up service for cluster. Developers can configure corresponding parameters for different types of servers, and the system would monitor the servers and scale up automatically with parameters.
+omelo-scale-plugin provides auto scale up service for cluster. Developers can configure corresponding parameters for different types of servers, and the system would monitor the servers and scale up automatically with parameters.
 
 ##Installation
 
 ```
-npm install pomelo-scale-plugin
+npm install omelo-scale-plugin
 ```
 
 ##Usage
 
 ```
-var scale = require('pomelo-scale-plugin');
+var scale = require('omelo-scale-plugin');
 
 app.configure('production|development', 'master', function() {
 	app.use(scale, {
